@@ -34,7 +34,7 @@ namespace Freenex.AccountLimiter
 
             try
             {
-                rejection = (ESteamRejection) Enum.Parse( typeof (ESteamRejection), Configuration.Instance.accRejectionReason, true );
+                rejection = (ESteamRejection) Enum.Parse(typeof(ESteamRejection), Configuration.Instance.accRejectionReason, true);
             }
             catch (ArgumentException)
             {
